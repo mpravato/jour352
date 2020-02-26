@@ -4,7 +4,7 @@ body {
 
  h3 {
    color: #9c2525;
-   font-weight: bold;
+   font-weight: 100;
    text-transform: uppercase;
    border-bottom: 1px dashed;
    font-size: 14px;
@@ -12,38 +12,30 @@ body {
  }
 
  h5 {
-   font-weight: bold;
+   font-weight: 100;
    font-size: 14px;
    color: #2e2e2e;
    margin: 0;
  }
 
-.price {
-  font-style:italic;
-}
-
-.description {
-   color: black;
+ .description {
+   color: #787878;
    font-size: 12px;
  }
-
-.box {
-  border: 1px dotted;
-  border-color: gray;
-  background: #d3dadb;
-  padding-left: 25px;
-}
 
 .header {
   text-align: center;
   text-transform: uppercase;
   font-size: 16px;
   color: #8c8080;
+  float: left;
+  width: 50%;
 }
 
 .background {
   color: #a1aba1;
-  text-align: center;
+  float: right;
+  width: 50%;
   font-size: 12px;
 }
 
@@ -56,46 +48,62 @@ body {
   padding: 10px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: bold;
 }
 
 .apps {
+  width: 20%;
   float: left;
+  margin: 20px;
 }
 
 .ss {
   float: left;
+  width: 20%;
+  margin: 20px;
 }
 
-.pizzas {
-  float: left;
+#ss {
+  color: #787878;
+  font-size: 12px;
+}
+
+#toppings {
+  color: #9c2525;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .sandwiches {
   float: left;
+  width: 20%;
+  margin: 20px;
 }
 
-.pastas {
+.column4 {
   float: left;
+  width: 20%;
+  margin: 20px;
 }
 
-.sides {
-  float: left;
+#pasta {
+  color: #9c2525;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.side {
+  font-weight: 100;
+  font-size: 14px;
+  color: #787878;
+  margin: 0;
 }
 
 .footnotes {
   color: #a1aba1;
   font-size: 12px;
-  float: left;
-}
-
-#toppings {
-  color: #9c2525;
-  text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: 3px;
-}
-
-ul {
-  list-style-type: square;
 }
