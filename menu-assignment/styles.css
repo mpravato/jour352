@@ -99,3 +99,7 @@ body {
 ul {
   list-style-type: square;
 }
+
+#pic {
+  float: right;
+}
