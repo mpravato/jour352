@@ -1,0 +1,96 @@
+/*font-family: 'Playfair Display', ;
+font-family: 'Noto Sans JP', ;*/
+
+#content {
+  margin: 0 auto;
+  width: 800px;
+  }
+
+#intro {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: 'Noto Sans JP', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  float: left;
+}
+
+a {
+  color: #7FB0DA;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: normal;
+}
+
+h2, h3 {
+  font-size: 16px;
+}
+.subhead {
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+}
+h3 {
+  font-weight: normal;
+  color: #737373;
+}
+
+.caption {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.inter {
+  font-style: italic;
+}
+
+blockquote {
+font-size: 18px;
+font-family: 'Noto Sans JP', Helvetica, Arial, sans-serif;
+font-style: italic;
+color: #737373;
+margin-bottom: 15px;
+margin-left: 40px;
+padding-left: 6px;
+}
+
+.one {
+  float: left;
+  width: 49%;
+}
+
+.two {
+  float: right;
+  width: 49%;
+}
+
+.three {
+  float: left;
+  width: 70%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.glasstext {
+  float: right;
+  width: 30%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.graphic1, .graphic2 {
+  margin: 0 auto;
+  width: 740px;
+}
+
+.map {
+  float: right;
+  width: 49%;
+}
+
+.maptext {
+  float: left;
+  width: 49%;
+}

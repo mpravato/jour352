@@ -1,0 +1,62 @@
+#content {
+  margin: 0 auto;
+  width: 740px;
+}
+
+h1, h5, h6 {
+  font-family: 'helvetica,' sans-serif;
+  font-style: italic;
+}
+h1 {
+  font-size: 20px;
+}
+h5, h6 {
+  font-size: 16px;
+}
+
+p {
+  font-family: 'georgia,' serif;
+  font-size: 13px;
+}
+.related{
+  font-weight: bold;
+}
+
+img {
+  width: 300px;
+}
+.caption {
+  font-size: 12px;
+  width: 300px;
+}
+
+.one {
+  float: left;
+  width: 49%;
+}
+
+.two {
+  float: right;
+  width: 49%;
+}
+
+.three{
+  float: left;
+  width: 49%;
+}
+
+.four {
+  float: right;
+  width: 49%;
+}
+
+blockquote {
+font: 16px/24px normal helvetica, sans-serif;
+font-style: italic;
+margin-top: 15px;
+margin-bottom: 15px;
+color: red;
+margin-left: 50px;
+padding-left: 15px;
+border-left: 4px solid #ccc;
+}

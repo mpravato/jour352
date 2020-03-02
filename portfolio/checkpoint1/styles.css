@@ -1,13 +1,47 @@
+/*font-family: 'Montserrat', ;
+font-family: 'Noto Serif', ;*/
+
+body {
+  font-family: 'Noto Serif', serif;
+  max-width: 70%;
+  margin: 50px auto;
+}
+/*This is how you center - margin: 0 auto;*/
 h1 {
     color: #33485e;
     text-transform: uppercase;
-    font-family: sans-serif;
     letter-spacing: 2px;
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+h2, .highlight {
+    color: white;
+    background-color: #33485e;
+    padding: 2px 5px;
+}
+/*top/bottom + left/right*/
+h3, h4, h5 {
+  margin: 6px;
+}
+h5 {
+    font-style: italic;
+}
+a {
+  color: #33485e;
+}
+
+.description {
+  margin: 1px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #33485e;
 }
 
 #header {
     text-align: center;
-    border-bottom: 1px solid #999999;
     width: 70%;
     margin: 0 auto 20px;
 }
@@ -15,16 +49,39 @@ h1 {
   color: #999999;
   font-style: italic;
   font-weight: bold;
+  font-family: 'Noto Serif', sans-serif;
+  margin-top: 0px;
+}
+
+.header-name {
+  border-bottom: 1px solid #999999;
+  margin-bottom: 20px;
+}
+
+#social ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+#social li {
+  display: inline-block;
+}
+#social ul li::after{
+  content: "|";
+  padding: 6px;
+}
+#social ul li:last-child::after {
+  content: "";
+}
+
+.introduction p {
+  font-family: 'Noto Serif', sans-serif;
+}
+.clearfix {
+	overflow: auto;
 }
 
 img {
     max-width: 600px;
     width: 33%;
     float: right;
-
-}
-
-.column {
-  float: left;
-  width: 25%;
 }
