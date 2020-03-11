@@ -1,0 +1,102 @@
+/*font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+
+#content {
+  margin: 0 auto;
+  width: 950px;
+}
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+}
+h1 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+h2 {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 5px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+}
+
+.one, .two, .three, .four, .five {
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+.one {
+  width: 49%;
+  float: left;
+  height: 350px;
+  margin-bottom: 15px;
+}
+.two {
+  width: 49%;
+  float: right;
+  height: 350px;
+  margin-bottom: 15px;
+}
+
+.three {
+  width: 33%;
+  float: left;
+  height: 300px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+.three2 {
+  width: 60%;
+  float: right;
+  margin-left: 3px;
+}
+
+.four {
+  width: 40%;
+  float: right;
+  height: 200px;
+  margin-left: 15px;
+}
+
+.five {
+  margin: 0 auto;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.c1, .c2, .c3, .c4, .c5 {
+  color: white;
+  width: 180px;
+  height: 70px;
+  display: inline-block;
+  padding-left: 5px;
+  margin: 0 auto;
+}
+.c1 {
+  background-color: #FF4940;
+}
+.c2 {
+  background-color:#802520;
+}
+.c3 {
+  background-color:#FF928C;
+}
+.c4 {
+  background-color: #850600;
+}
+.c5 {
+  background-color:#CC3B33;
+}
