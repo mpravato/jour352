@@ -207,6 +207,7 @@ a {
 
   #graphic1, #graphic2, #graphic3 {
     max-width: 70%;
+    max-height: 500px;
     margin: 0 auto;
   }
 
