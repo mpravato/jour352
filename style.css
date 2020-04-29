@@ -172,25 +172,22 @@ a {
 }
 
 /*Images*/
-.five {
-  background-color: gray;
-  color: white;
-  text-align: center;
-}
-
 .one {
   display: flex;
   flex-direction: column;
 }
 
 #img1 {
-  max-height: 530px;
+  max-height: 400px;
   flex-grow: 1;
+}
+
+.two.img {
+  margin: 0 auto;
 }
 
 #img2 {
   max-width: 70%;
-  margin: 0 auto;
 }
 
 .three {
@@ -199,7 +196,7 @@ a {
 }
 
 #graphic1, #graphic2, #graphic3 {
-  max-height: 900px;
+  max-width: 80%;
   margin: 0 auto;
 }
 
